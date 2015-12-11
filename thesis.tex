@@ -1,0 +1,281 @@
+\documentclass[12 pt]{uncw_thesis}
+%
+% Packages
+%
+\usepackage[margin=1in]{geometry}
+\usepackage{cite}
+\usepackage{amsmath, amssymb, amsthm} % AMS packages
+\usepackage{setspace}    % Needed for multiple spacing (single and double)
+\usepackage{graphicx}    % Needed for bmp or gif images
+\usepackage{afterpage}   % Needed to make figures and tables on separate pages
+\input{epsf}             % Needed for postscript images
+\usepackage{indentfirst} % Use to indent first paragraphs
+\usepackage{hyperref}    % Needed for live links
+\usepackage{tikz}        % Package for drawing figures
+\hypersetup{
+    bookmarks=flase,%
+    colorlinks,%
+    citecolor=black,%
+    filecolor=black,%
+    linkcolor=black,%
+    urlcolor=black
+}                        % Eliminate colored links See http://en.wikibooks.org/wiki/LaTeX/Hyperlinks
+\urlstyle{same}          % Makes links same font as text
+
+\graphicspath{ {./images/} }
+
+%=============================================
+% Taken from https://www.sharelatex.com/learn/Code_listing
+\usepackage{listings}
+\usepackage{color}
+ 
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{.97,.97,.97}
+ 
+\lstdefinestyle{mystyle}{
+    backgroundcolor=\color{backcolour},   
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\footnotesize,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=b,                    
+    keepspaces=true,                 
+    numbers=left,                    
+    numbersep=5pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2
+}
+
+
+\lstset{style=mystyle}
+
+%======================================================
+
+
+%
+% Formatting
+%
+\doublespacing
+
+
+%
+% Environments
+%
+\newtheorem{dfn}{Definition}
+\newtheorem{prop}{Proposition}
+\newtheorem{lma}{Lemma}
+\newtheorem{thm}{Theorem}
+\newtheorem{cor}{Corollary}
+
+% Used for forced indentation
+\newenvironment{myindentpar}[1]%
+{\begin{list}{}%
+         {\setlength{\leftmargin}{#1}}%
+         \item[]%
+}
+{\end{list}}
+
+% \numberwithin{equation}{subsection}  %Uncomment for Equation Numbering by Subsection
+
+%
+% Start of Document
+%
+\begin{document}
+%
+%  TITLE PAGE
+%
+\pagestyle{empty} 
+\begin{singlespace}
+\begin{center}
+     \hskip 1pt \\
+     \hskip 1pt \\    % Title on Line 3 - 15 words or fewer
+     { QUANTIFYING DETERMINISM IN CORAL REEFS AND COASTAL ZONES}\\
+     \hskip 1pt \\
+     \hskip 1pt \\
+     \hskip 1pt \\
+     \hskip 1pt \\    % Name on line 8
+     Nick Cortale\\
+     \hskip 1pt \\
+     \hskip 1pt \\
+     \hskip 1pt \\
+     \hskip 1pt \\    % Start statement on line 13
+    A Thesis Submitted to the\\
+    University of North Carolina Wilmington in Partial Fulfillment\\
+    of the Requirements for the Degree of\\
+    Master of Science\\
+    % or Master of Science\\
+    \hskip 1pt \\
+    \hskip 1pt \\    % Department on line 19
+    Center for Marine Science\\
+    \hskip 1pt \\    % UNCW on line 21
+    University of North Carolina Wilmington\\
+    \hskip 1pt \\    % Year on line 23
+    2015\\
+    \hskip 1pt \\
+    \hskip 1pt \\    % Approved on line 26
+    Approved by\\
+    \hskip 1pt \\
+    \hskip 1pt \\    % Advisory Committee on line 29
+    Advisory Committee\\
+    \hskip 1pt \\
+    \hskip 1pt \\    % Begin Signature Lines on line 32
+\end{center}
+
+\begin{center}
+		
+	Dylan McNamara \hspace{2.5in}  Jim Blum ~~~\\
+	
+	\vspace{-0.1in}
+	\rule{2.5in}{.01in} \hspace{0.9in}   \rule{2.5in}{.01in}\\
+		
+\end{center}
+ \begin{center}
+ 
+ 	Mark Lammers\\
+	
+	\vspace{-0.1in}
+	\rule{2.5in}{.01in}\\
+	\hskip 1pt \\
+	\hskip 1pt \\
+	\hskip 1pt \\
+	\hskip 1pt \\    % Accepted by on line 39
+	Accepted by\\
+	\hskip 1pt \\    % Dean's Signature on line 41
+	\rule{2.5in}{.01in}\\
+	Dean, Graduate School
+	
+\end{center}
+\end{singlespace}
+
+\newpage
+%
+% Journal Page
+%
+%\pagenumbering{roman} \setcounter{page}{2}
+%\begin{center}
+%This thesis has been prepared in the style and format\\
+%Consistent with the journal \\
+%
+% %insert your journal here
+%
+%American Mathematical Monthly.\\
+%\end{center}
+%
+% Table of Contents
+%
+\newpage
+\pagestyle{plain}
+\pagenumbering{roman} \setcounter{page}{2}
+\begin{center}
+\tableofcontents
+\end{center}
+%
+% Abstract
+%
+\newpage
+\sectionx*{ABSTRACT}
+\addcontentsline{toc}{section}{ABSTRACT}
+
+Natural systems are notoriously difficult to forecast.  Ocean coastlines and coral reefs are both regions that draw considerable human attention as economic investment and infrastructure are threatened by a range of stressors (i.e., sea level rise and overfishing). Understanding the coastline's evolution over intermediate time scales (daily) or the species distribution on coral reefs in space (tens of meters) is hindered by the complexity of sediment transport and species interaction respectively. Modern remote sensing systems and newly developed underwater photographic techniques provide an efficient means to collect data within these regions. Methods in nonlinear time series forecasting, adjusted here for spatial data, applied to these systems corroborate that both coastal morphology and species distribution are predominately driven by nonlinear internal dynamics. Results also indicate that these forecasting techniques are capable of elucidating the relative deterministic nature of each of the systems. A metric is developed to succinctly summarize the results of the non-linear forecasting. The metric is applied before and after an engineered beach nourishment as well as along a gradient of coral reef health. The metric indicates that beach evolution subsequent to a nourishment is dominated by nonlinear dynamics relative to the pre-nourished behavior and degraded coral reefs show more evidence of random spatial dynamics than pristine reefs.
+%
+% Dedication (Optional for Graduate School)
+%
+%\newpage
+%\sectionx*{DEDICATION}
+%\addcontentsline{toc}{section}{DEDICATION}
+%Dedication here.
+%
+% Acknowledgments (Optional for Graduate School)
+%
+\newpage
+\sectionx*{ACKNOWLEDGMENTS}
+\addcontentsline{toc}{section}{ACKNOWLEDGMENTS}
+I would like to thank the Gordon and Betty Moore Foundation for their financial support of this project
+and my schooling. I would also like to thank the Scripps Institution of Oceanography for the photomosaics of the coral reefs that were analyzed in this thesis. I also wish to thank the staff at the Center for Marine Science who have been been enormously helpful throughout my graduate career. Additionally, I thank my committee members Dr. Jim Blum and Dr. Mark Lammers for their support, useful critiques of my work, and sitting through my numerous presentations. I am also grateful to Dr. Kenneth Ells who provided valuable feedback on this work and pushed me to write better code. Finally, my sincere thanks goes to my advisor of six years, Dr. Dylan McNamara, who provided me with an enormous academic opportunity that was almost too good to be true and for that I will always be grateful. Additionally, his mentorship both academically and non-academically has been invaluable throughout my graduate career. I truly enjoyed my time working in the Complex Adaptive Systems Lab.
+
+\newpage
+%
+% Lists of Figures and Tables (Optional for Graduate School)
+%
+%\listoftables \addcontentsline{toc}{section}{LIST OF TABLES}
+%\newpage
+%\listoffigures \addcontentsline{toc}{section}{LIST OF FIGURES}
+%
+% List of symbols and abbreviations (Optional for Graduate School)
+%
+%\newpage
+%\sectionx*{LIST OF SYMBOLS}
+%\addcontentsline{toc}{section}{LIST OF SYMBOLS}
+%
+% Body of Thesis
+%
+% The thesis may be typed using one file or each chapter composed
+% individually and called using a \input chapx statement. This is
+% useful for compiling individual chapters by using %\input chapx
+% in order not to compile other chapters until the thesis is done.
+%
+% All chapters use section command which does not display the
+% chapter number on the first page of a chapter.
+%
+
+\input{./chapters/intro}
+
+\input{ ./chapters/methods}
+
+\input{./chapters/methods_1D}
+
+\input{./chapters/methods_2D}
+
+\input{./chapters/data_collection}
+
+\input{./chapters/deterministic_analysis}
+
+\input{./chapters/conclusion}
+
+\newpage
+\sectionx*{APPENDIX}
+\addcontentsline{toc}{section}{APPENDIX}
+\appendix
+\input{./chapters/code}
+
+
+
+
+
+%\input{./chapters/beach}
+%\input{./chapters/coral}
+
+
+
+%\input chap2
+\newpage
+%\sectionx*{REFERENCES}
+\addcontentsline{toc}{section}{REFERENCES}
+\bibliographystyle{plain}
+\bibliography{citations.bib}
+\clearpage
+
+%\input biblio
+%\input appendix
+%
+% Biographical Sketch (Optional for Graduate School)
+%
+%\newpage
+%\begin{singlespace}
+%\section*{BIOGRAPHICAL SKETCH}
+%Here is the section where you can let the reader know something
+%about your educational background and any other pertinent
+%professional information that you would like the reader to know.
+%\end{singlespace}
+\end{document}
+
+
+
+

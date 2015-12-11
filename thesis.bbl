@@ -1,0 +1,216 @@
+\begin{thebibliography}{10}
+
+\bibitem{chaotic_analysis}
+Henry Abarbanel.
+\newblock {\em Analysis of observed chaotic data}.
+\newblock Springer Science \& Business Media, 2012.
+
+\bibitem{beach_profiles}
+David~G Aubrey, Douglas~L Inman, and Charles~E Nordstrom.
+\newblock Beach profiles at torrey pines, california.
+\newblock {\em Coastal Engineering Proceedings}, 1(15), 1976.
+
+\bibitem{beach_model_physics}
+James~A Bailard.
+\newblock An energetics total load sediment transport model for a plane sloping
+  beach.
+\newblock {\em Journal of Geophysical Research: Oceans (1978--2012)},
+  86(C11):10938--10954, 1981.
+
+\bibitem{line_islands_gradient}
+Katie~L Barott, Gareth~J Williams, Mark~JA Vermeij, Jill Harris, Jennifer~E
+  Smith, Forest~L Rohwer, and Stuart~A Sandin.
+\newblock Natural history of coral- algae competition across a gradient of
+  human activity in the line islands.
+\newblock {\em Institute for Biodiversity and Ecosystem Dynamics (IBED)}, 2012.
+
+\bibitem{coral_economics}
+Herman Cesar, Lauretta Burke, and Lida Pet-Soede.
+\newblock The economics of worldwide coral reef degradation.
+\newblock 2003.
+
+\bibitem{nearest_neighbor}
+Thomas~M Cover and Peter~E Hart.
+\newblock Nearest neighbor pattern classification.
+\newblock {\em Information Theory, IEEE Transactions on}, 13(1):21--27, 1967.
+
+\bibitem{equilibrium_profiles}
+Robert~G Dean.
+\newblock Equilibrium beach profiles: characteristics and applications.
+\newblock {\em Journal of coastal research}, pages 53--84, 1991.
+
+\bibitem{phase_shifts}
+Carl Folke, Steve Carpenter, Brian Walker, Marten Scheffer, Thomas Elmqvist,
+  Lance Gunderson, and CS~Holling.
+\newblock Regime shifts, resilience, and biodiversity in ecosystem management.
+\newblock {\em Annual Review of Ecology, Evolution, and Systematics}, pages
+  557--581, 2004.
+
+\bibitem{mutual_info}
+Andrew~M Fraser and Harry~L Swinney.
+\newblock Independent coordinates for strange attractors from mutual
+  information.
+\newblock {\em Physical review A}, 33(2):1134, 1986.
+
+\bibitem{emergence}
+Jeffrey Goldstein.
+\newblock Emergence as a construct: History and issues.
+\newblock {\em Emergence}, 1(1):49--72, 1999.
+
+\bibitem{chaos_paper}
+DJ~Grimes, N~Cortale, K~Baker, and DE~McNamara.
+\newblock Nonlinear forecasting of intertidal shoreface evolution.
+\newblock {\em Chaos: An Interdisciplinary Journal of Nonlinear Science},
+  25(10):103116, 2015.
+
+\bibitem{neural_network}
+Trevor Hastie, Robert Tibshirani, Jerome Friedman, and James Franklin.
+\newblock The elements of statistical learning: data mining, inference and
+  prediction.
+\newblock {\em The Mathematical Intelligencer}, 27(2):83--85, 2005.
+
+\bibitem{video_beach_monitoring}
+Todd~K Holland, Robert Holman, Thomas~C Lippmann, John Stanley, Nathaniel
+  Plant, et~al.
+\newblock Practical use of video imagery in nearshore oceanographic field
+  studies.
+\newblock {\em Oceanic Engineering, IEEE Journal of}, 22(1):81--92, 1997.
+
+\bibitem{economic}
+James~R Houston.
+\newblock The economic value of beaches: a 2008 update.
+\newblock {\em Shore and Beach}, 76(3):22--26, 2008.
+
+\bibitem{coral_degredation}
+Terence~P Hughes.
+\newblock Catastrophes, phase shifts, and large-scale degradation of a
+  caribbean coral reef.
+\newblock {\em Science-AAAS-Weekly Paper Edition}, 265(5178):1547--1551, 1994.
+
+\bibitem{matplotlib}
+John~D Hunter.
+\newblock Matplotlib: A 2d graphics environment.
+\newblock {\em Computing in science and engineering}, 9(3):90--95, 2007.
+
+\bibitem{shredding_signals}
+Douglas~J Jerolmack and Chris Paola.
+\newblock Shredding of environmental signals by sediment transport.
+\newblock {\em Geophysical Research Letters}, 37(19), 2010.
+
+\bibitem{nonlinear_book}
+Holger Kantz and Thomas Schreiber.
+\newblock {\em Nonlinear time series analysis}, volume~7.
+\newblock Cambridge university press, 2004.
+
+\bibitem{embedding_dimension}
+Matthew~B Kennel, Reggie Brown, and Henry~DI Abarbanel.
+\newblock Determining embedding dimension for phase-space reconstruction using
+  a geometrical construction.
+\newblock {\em Physical review A}, 45(6):3403, 1992.
+
+\bibitem{lorenz_equations}
+Edward~N Lorenz.
+\newblock Deterministic nonperiodic flow.
+\newblock {\em Journal of the atmospheric sciences}, 20(2):130--141, 1963.
+
+\bibitem{logistic_equation}
+Robert~M May et~al.
+\newblock Simple mathematical models with very complicated dynamics.
+\newblock {\em Nature}, 261(5560):459--467, 1976.
+
+\bibitem{rubin_lagged_vals}
+Ulrich Parlitz and Christian Merkwirth.
+\newblock Prediction of spatiotemporal time series based on reconstructed local
+  states.
+\newblock {\em Physical review letters}, 84(9):1890, 2000.
+
+\bibitem{scikit}
+Fabian Pedregosa, Ga{\"e}l Varoquaux, Alexandre Gramfort, Vincent Michel,
+  Bertrand Thirion, Olivier Grisel, Mathieu Blondel, Peter Prettenhofer, Ron
+  Weiss, Vincent Dubourg, et~al.
+\newblock Scikit-learn: Machine learning in python.
+\newblock {\em The Journal of Machine Learning Research}, 12:2825--2830, 2011.
+
+\bibitem{ipython}
+Fernando P{\'e}rez and Brian~E Granger.
+\newblock Ipython: a system for interactive scientific computing.
+\newblock {\em Computing in Science \& Engineering}, 9(3):21--29, 2007.
+
+\bibitem{intertidal_esitimation}
+Nathaniel~G Plant and Rob~A Holman.
+\newblock Intertidal beach profile estimation using video images.
+\newblock {\em Marine Geology}, 140(1):1--24, 1997.
+
+\bibitem{beach_attractor}
+Nathaniel~G Plant, K~Todd~Holland, and Rob~A Holman.
+\newblock A dynamical attractor governs beach response to storms.
+\newblock {\em Geophysical Research Letters}, 33(17), 2006.
+
+\bibitem{coral_model}
+Jeffrey~J Polovina.
+\newblock Model of a coral reef ecosystem.
+\newblock {\em Coral reefs}, 3(1):1--11, 1984.
+
+\bibitem{original_rubin}
+David~M Rubin.
+\newblock Use of forecasting signatures to help distinguish periodicity,
+  randomness, and chaos in ripples and other spatial patterns.
+\newblock {\em Chaos: An Interdisciplinary Journal of Nonlinear Science},
+  2(4):525--535, 1992.
+
+\bibitem{Embedology}
+Tim Sauer, James~A Yorke, and Martin Casdagli.
+\newblock Embedology.
+\newblock {\em Journal of statistical Physics}, 65(3-4):579--616, 1991.
+
+\bibitem{beach_predicting}
+MWJ Smit, SGJ Aarninkhof, KM~Wijnberg, M~Gonz{\'a}lez, KS~Kingston,
+  HN~Southgate, BG~Ruessink, RA~Holman, E~Siegle, M~Davidson, et~al.
+\newblock The role of video imagery in predicting daily to monthly coastal
+  evolution.
+\newblock {\em Coastal engineering}, 54(6):539--553, 2007.
+
+\bibitem{beach_imagery}
+RK~Smith and KR~Bryan.
+\newblock Monitoring beach face volume with a combination of intermittent
+  profiling and video imagery.
+\newblock {\em Journal of Coastal Research}, pages 892--898, 2007.
+
+\bibitem{natural_series_classification}
+George Sugihara.
+\newblock Nonlinear forecasting for the classification of natural time series.
+\newblock {\em Philosophical Transactions of the Royal Society of London A:
+  Mathematical, Physical and Engineering Sciences}, 348(1688):477--495, 1994.
+
+\bibitem{measurement_error_vs_chaos}
+George Sugihara and R~Mayf.
+\newblock Nonlinear forecasting as a way of distinguishing chaos from
+  measurement error in time series, 1990.
+
+\bibitem{takens_theorem}
+Floris Takens.
+\newblock {\em Detecting strange attractors in turbulence}.
+\newblock Springer, 1981.
+
+\bibitem{equilibrium_profiles2}
+BG~Thom and W~Hall.
+\newblock Behaviour of beach profiles during accretion and erosion dominated
+  periods.
+\newblock {\em Earth Surface Processes and Landforms}, 16(2):113--127, 1991.
+
+\bibitem{numpy}
+Stefan Van Der~Walt, S~Chris Colbert, and Gael Varoquaux.
+\newblock The numpy array: a structure for efficient numerical computation.
+\newblock {\em Computing in Science \& Engineering}, 13(2):22--30, 2011.
+
+\bibitem{seaborn}
+Michael Waskom, Olga Botvinnik, Paul Hobson, John~B Cole, Yaroslav Halchenko,
+  Stephan Hoyer, Alistair Miles, et~al.
+\newblock Seaborn: v0. 5.0 (november 2014), 2014.
+
+\bibitem{orthorectification}
+Paul~R Wolf.
+\newblock Elements of photogrammetry, with air photo interpretation and remote
+  sensing, 2, 1983.
+
+\end{thebibliography}

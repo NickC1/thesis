@@ -1,0 +1,27 @@
+\contentsline {section}{ABSTRACT}{iv}{section*.2}
+\contentsline {section}{ACKNOWLEDGMENTS}{v}{section*.3}
+\contentsline {section}{\numberline {1}INTRODUCTION}{1}{section.1}
+\contentsline {section}{\numberline {2}METHODS}{4}{section.2}
+\contentsline {subsection}{\numberline {2.1}THE LORENZ SYSTEM}{4}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}RECONSTRUCTED STATE SPACE}{6}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.3}FORECASTING}{8}{subsection.2.3}
+\contentsline {subsection}{\numberline {2.4}EVALUATING DETERMINISM}{9}{subsection.2.4}
+\contentsline {subsection}{\numberline {2.5}ONE DIMENSIONAL SYSTEMS}{12}{subsection.2.5}
+\contentsline {subsection}{\numberline {2.6}TWO-DIMENSIONAL SYSTEMS}{17}{subsection.2.6}
+\contentsline {subsection}{\numberline {2.7}DISCRETE SPACES}{22}{subsection.2.7}
+\contentsline {section}{\numberline {3}DATA COLLECTION}{24}{section.3}
+\contentsline {subsection}{\numberline {3.1}COASTAL ZONES}{24}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}CORAL REEFS}{26}{subsection.3.2}
+\contentsline {section}{\numberline {4}DETERMINISTIC ANALYSIS}{29}{section.4}
+\contentsline {subsection}{\numberline {4.1}COASTAL ANALYSIS}{29}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}CORAL ANALYSIS}{30}{subsection.4.2}
+\contentsline {section}{\numberline {5}CONCLUSION}{32}{section.5}
+\contentsline {section}{APPENDIX}{34}{section*.4}
+\contentsline {section}{\numberline {A}IMPLEMENTATION OF THE NON-LINEAR FORECASTING TECHNIQUE}{34}{appendix.A}
+\contentsline {subsection}{\numberline {A.1}LAG VALUE CALCULATION}{35}{subsection.A.1}
+\contentsline {subsection}{\numberline {A.2}TRAINING AND TESTING SETS}{38}{subsection.A.2}
+\contentsline {subsection}{\numberline {A.3}EMBEDDING}{39}{subsection.A.3}
+\contentsline {subsection}{\numberline {A.4}K-NEAREST NEIGHBOR ALGORITHM}{45}{subsection.A.4}
+\contentsline {subsection}{\numberline {A.5}DETERMINISTIC METRIC}{51}{subsection.A.5}
+\contentsline {subsection}{\numberline {A.6}EXAMPLE: ONE-DIMENSIONAL}{52}{subsection.A.6}
+\contentsline {section}{REFERENCES}{63}{figure.40}

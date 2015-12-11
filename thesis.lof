@@ -1,0 +1,8 @@
+\contentsline {figure}{\numberline {1}{\ignorespaces A: Location of Study: Wilmington, NC. B: Data collection region. C: Solar powered camera D: Sample image from camera.}}{2}{figure.1}
+\contentsline {figure}{\numberline {2}{\ignorespaces A section of the raw mosaic image from Fanning Island.}}{3}{figure.2}
+\contentsline {figure}{\numberline {3}{\ignorespaces A section of a classified mosaic image from Fanning Island. Each color corresponds to a different species.}}{3}{figure.3}
+\contentsline {figure}{\numberline {4}{\ignorespaces Lorenz system solved with parameters:$\rho =28$, $\sigma =10$, and $\beta =\frac {8}{3}$. }}{5}{figure.4}
+\contentsline {figure}{\numberline {5}{\ignorespaces Difference between two Lorenz system solved with parameters:$\rho =28$, $\sigma =10$, and $\beta =\frac {8}{3}$, but started with initial conditions [$X_0 = 1.01$,$Y_0= 1.01$,$Z_0= 1.01$] and [$X_0 = 1.00$, $Y_0= 1.00$, $Z_0= 1.00$]. }}{5}{figure.5}
+\contentsline {figure}{\numberline {6}{\ignorespaces Lorenz system $X$ vs. $Y$ vs. $Z$ solved with parameters:$\rho =28$, $\sigma =10$, and $\beta =\frac {8}{3}$. }}{6}{figure.6}
+\contentsline {figure}{\numberline {7}{\ignorespaces Lorenz system solved with parameters:$\rho =28$, $\sigma =10$, and $\beta =\frac {8}{3}$. }}{7}{figure.7}
+\contentsline {figure}{\numberline {8}{\ignorespaces Near Neighbors ($K$) vs. prediction distance. Color corresponds to the $R^2$ value. }}{8}{figure.8}

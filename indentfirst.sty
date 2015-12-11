@@ -1,0 +1,20 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%                  indentfirst.sty
+%                  %%%%%%%%%%%%%%%
+%
+% Make the first line of all sections etc be indented by the usual
+% paragraph indentation.
+%  
+%                   David Carlisle
+%                   carlisle@uk.ac.man.cs
+%                   31/10/90
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\let\@st@rtsection\@startsection
+
+\def\@startsection#1#2#3#4{\skip@=#4\relax
+\ifdim \skip@ < \z@ \skip@=-\skip@\fi
+\@st@rtsection{#1}{#2}{#3}{\skip@}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
